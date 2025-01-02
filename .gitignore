@@ -3,3 +3,4 @@
 !src/**/build/
 !gradle-wrapper.jar
 !gradle-wrapper.properties
+.idea/

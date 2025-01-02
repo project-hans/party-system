@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("net.md-5:bungeecord-api:1.19-R0.1-SNAPSHOT")
+    compileOnly("net.md-5:bungeecord-api:1.20-R0.2")
 
     implementation("net.kyori:adventure-api:4.13.1")
     implementation("net.kyori:adventure-text-minimessage:4.13.1")
@@ -19,7 +19,7 @@ dependencies {
     implementation("org.jetbrains:annotations:24.0.1")
     implementation("org.slf4j:slf4j-api:1.7.36")
     implementation("org.slf4j:slf4j-simple:1.7.36")
-    implementation("redis.clients:jedis:4.3.2")
+    implementation("redis.clients:jedis:5.2.0")
     implementation(project(":common"))
     implementation(project(":api"))
 }
